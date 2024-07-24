@@ -1,0 +1,11 @@
+server:
+  port: 6138
+  servlet:
+    context path: "/kafka/v1"
+
+spring:
+  application:
+    name=kafka
+  mvc:
+    path match:
+      matching-strategy: ant-path-matcher
